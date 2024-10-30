@@ -23,9 +23,15 @@ This lab demonstrates the necessary changes I make to configure osTicket so it c
 <img src="https://i.imgur.com/7HyoONM.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-After installing osTicket, it's time to configure it as a ticketing system. Note that I switch between the Admin and Agent panels, indicated at the top right of the screen; if it says "Agent Panel," then the Admin panel is in use, and vice versa.
+1. Switching Between Admin and Agent Panels:
 
-First, create a new role called Supreme Admin, which will have all permissions. To do this, open the Admin panel, navigate to the Agents Menu, click on Roles, and create the new role.
+- Navigate between the Admin and Agent panels to access specific configuration settings. Ensure the panel label at the top right reads Agent Panel when the Admin panel is in use, and vice versa.
+
+2. Create Supreme Admin Roles:
+- Open the Admin Panel.
+- Go to Agents > Roles.
+- Click to Create a New Role.
+- Name the role Supreme Admin and assign it all available permissions for unrestricted access.
 </p>
 <br />
 
@@ -33,7 +39,11 @@ First, create a new role called Supreme Admin, which will have all permissions. 
 <img src="https://i.imgur.com/EQnl5rh.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-Next, a new Department will be created for System Administrators. In the Admin panel, open the Agents menu and click on Departments to create a new Department.
+3. Create a System Administrators Department:
+
+- In the Admin Panel, navigate to Agents > Departments.
+- Click to Add New Department.
+- Name the new department System Administrators.
 </p>
 <br />
 
@@ -41,7 +51,10 @@ Next, a new Department will be created for System Administrators. In the Admin p
 <img src="https://i.imgur.com/d7WuRn8.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-A Level II Support Team needs to be created to complement the existing Level I Support Team. In the Admin panel, go to the Agents menu, click on Teams, and add the new team.
+4. Add a Level II Support Team:
+
+- In the Admin Panel, go to Agents > Teams.
+- Click to Add New Team.
 </p>
 <br />
 
@@ -50,7 +63,8 @@ A Level II Support Team needs to be created to complement the existing Level I S
 <img src="https://i.imgur.com/k0lElHH.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-New agents must be created to handle incoming tickets. In the Admin panel, open the Agents menu, click on Add New Agent, and create accounts for each agent (e.g., Jane and John Doe).
+5. Create new agents:
+ -  New agents must be created to handle incoming tickets. In the Admin panel, open the Agents menu, click on Add New Agent, and create accounts for each agent (e.g., Jane and John Doe).
 </p>
 <br />
 
@@ -58,7 +72,7 @@ New agents must be created to handle incoming tickets. In the Admin panel, open 
 <img src="https://i.imgur.com/gHvbfS3.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-New users should be created to submit tickets for agents to triage. In the Agents panel, open the Users menu, click on Add User, and set up accounts for new users (e.g., Karen and Ken).
+- New users should be created to submit tickets for agents to triage. In the Agents panel, open the Users menu, click on Add User, and set up accounts for new users (e.g., Karen and Ken).
 </p>
 <br />
 
@@ -66,14 +80,30 @@ New users should be created to submit tickets for agents to triage. In the Agent
 <img src="https://i.imgur.com/pI1Cf3Q.png" height="80%" width="80%" alt="Configuration Steps"/>
 </p>
 <p>
-Service Level Agreements (SLAs) need to be established to categorize tickets by impact. In the Admin panel, open the Manage menu, click on SLA, and create the necessary SLAs (e.g., SEV-A, B, and C for 1, 4, and 8 hours, respectively).
+6. Set Up Service Level Agreements: 
+Service Level Agreements (SLAs) need to be established to categorize tickets by impact. 
+
+  - Open the Admin Panel and navigate to Manage > SLA.
+  - Define SLAs with response times to categorize ticket priority:
+  - SEV-A: 1-hour response time
+  - SEV-B: 4-hour response time
+  - SEV-C: 8-hour response time
+
 </p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/v3zTkfy.png" height="80%" width="80%" alt="Configuration Steps"/>
-</p>
+</
 <p>
-Finally, create Help Topics to help users select the right category for their issues. In the Admin panel, open the Manage menu, click on Help Topics, and add new topics (e.g., Business Critical Outage, Personal Computer Issues, Equipment Reset, and Password Request).
+7. Add Help Topics:
+
+  - Finally, create Help Topics to help users select the right category for their issues.
+  - In the Admin Panel, go to Manage > Help Topics.
+  - Create categories for common ticket types to guide users in selecting the correct issue type. Examples include:
+  - Business Critical Outage
+  -  Personal Computer Issues
+  -  Equipment Reset
+  - Password Request
 </p>
 <br />
